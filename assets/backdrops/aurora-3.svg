@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="hsl(32 10% 97%)"/>
+      <stop offset="100%" stop-color="hsl(12 10% 97.8%)"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <radialGradient id="b0" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="hsl(32 73.5% 86.7%)" stop-opacity="0.93"/>
+      <stop offset="55%" stop-color="hsl(32 73.5% 86.7%)" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="hsl(32 73.5% 86.7%)" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="hsl(12 65.1% 88.2%)" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="hsl(12 65.1% 88.2%)" stop-opacity="0.43"/>
+      <stop offset="100%" stop-color="hsl(12 65.1% 88.2%)" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="hsl(48 53.1% 89%)" stop-opacity="0.79"/>
+      <stop offset="55%" stop-color="hsl(48 53.1% 89%)" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="hsl(48 53.1% 89%)" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#base)"/>
+  <g filter="url(#soft)">
+    <circle cx="230.2" cy="-6.3" r="230.7" fill="url(#b0)"/>
+    <circle cx="356.7" cy="91.2" r="226.4" fill="url(#b1)"/>
+    <circle cx="128.8" cy="192.4" r="157.9" fill="url(#b2)"/>
+  </g>
+</svg>
